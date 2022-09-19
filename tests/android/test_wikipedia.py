@@ -12,7 +12,7 @@ def test_search():
     with step('Search for content'):
         browser.element((AppiumBy.ACCESSIBILITY_ID, 'Search Wikipedia')).click()
         browser.element((AppiumBy.ID, 'org.wikipedia.alpha:id/search_src_text')).type(
-            'BrowserStack1'
+            'BrowserStack'
         )
 
     with step('Content should be found'):
