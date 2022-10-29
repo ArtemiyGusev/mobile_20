@@ -8,7 +8,7 @@ from mobile_tests_lesson_13.model import app
 def test_search():
     app.given_opened()
 
-    with title('Check tab explore'):
+    with title('Check tab explore '):
         browser.element('Search Wikipedia').should(be.visible)
 
     with title('Check tab saved'):
